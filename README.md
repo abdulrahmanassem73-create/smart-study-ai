@@ -1,72 +1,49 @@
-# Academic AI Study System
+# generate-study-content (Supabase Edge Function)
 
-منصة تعليمية ذكية (واجهة React) تساعد الطالب على:
-- رفع ملفات المحاضرات (PDF/صور)
-- استخراج النص داخل المتصفح
-- توليد شرح Markdown وأسئلة (عبر Gemini لكن **من خلال Supabase Edge Functions**)
-- اختبار تفاعلي + لوحة نتائج ورسوم بيانية
-- مكتبة للمستخدم (Caching محلي + حفظ سحابي عند تسجيل الدخول)
+Calls Google Gemini from the server **without exposing the API key to the browser**.
 
-## التقنيات المستخدمة
-- React 19 + TypeScript + Vite
-- Tailwind CSS v4 + shadcn/ui
-- RTL + Dark Mode
-- framer-motion (Animations)
-- recharts (Charts)
-- react-markdown + remark-gfm + KaTeX (LaTeX)
-- pdfjs-dist (PDF text extraction)
-- tesseract.js (OCR للصور)
+## What it does
 
-## التشغيل محلياً
-```bash
-pnpm install
-pnpm dev
+This function receives a request from the frontend and then calls Gemini using the server-side secret `GEMINI_API_KEY`.
+
+Supported actions:
+- `study_pack` → returns `{ analysis_markdown, questions[] }`
+- `explain` → returns `{ markdown, questions[] }`
+- `chat` → returns `{ text }` (supports RAG when `fileId` provided)
+- `index_file` → indexes embeddings into `public.file_embeddings`
+
+## Request body
+
+```json
+{
+  "action": "study_pack",
+  "text": "...",
+  "questionCount": 10
+}
 ```
 
-## بناء نسخة Production
-```bash
-pnpm build
-pnpm preview
+For chat:
+
+```json
+{
+  "action": "chat",
+  "commandLabel": "سؤال عام",
+  "userMessage": "...",
+  "pageMarkdown": "...",
+  "globalSummaries": [{ "fileName": "...", "summary": "..." }],
+  "mode": "normal",
+  "socratic": false
+}
 ```
 
-## ملاحظات مهمة
-- **Gemini (مؤمّن):** لا يوجد أي مفتاح API داخل الواجهة الأمامية. جميع الاستدعاءات تتم عبر **Supabase Edge Functions** مع Secret (`GEMINI_API_KEY`).
-- **RLS (حماية البيانات):** تم إعداد سياسات Row Level Security لضمان أن كل مستخدم يرى/يعدل بياناته فقط.
-- استخراج النص من ملفات Word (DOC/DOCX) غير مفعّل حالياً.
+## Set secrets
 
-## النشر (Deployment)
-
-### 1) نشر الواجهة (Vite)
-المشروع جاهز للنشر على منصات Static مثل:
-- Vercel
-- Netlify
-
-قم برفع مشروع Vite (مجلد `dist`) أو اربط المستودع ثم فعّل Build Command: `pnpm build` و Output: `dist`.
-
-### 2) تفعيل Edge Functions + Secrets (Supabase)
-
-- الدالة المستخدمة: `generate-study-content`
-- مكانها في المشروع: `supabase/functions/generate-study-content/`
-
-إعداد Secret (مرة واحدة):
 ```bash
-supabase secrets set GEMINI_API_KEY="<YOUR_GEMINI_KEY>"
+supabase secrets set GEMINI_API_KEY="YOUR_KEY"
 ```
 
-نشر الدالة:
+## Deploy
+
 ```bash
 supabase functions deploy generate-study-content
 ```
-
-### 3) تطبيق سياسات RLS (Supabase)
-تم إضافة سكربت السياسات داخل المشروع:
-- `supabase/migrations/20260216114500_rls_hardening.sql`
-
-لتطبيقه على مشروع Supabase:
-```bash
-supabase login
-supabase link --project-ref <YOUR_PROJECT_REF>
-supabase db push
-```
-
-> بديل سريع: انسخ محتوى ملف الـ SQL وافتح Supabase Dashboard → SQL Editor → Run.
