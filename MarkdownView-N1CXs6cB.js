@@ -1,0 +1,1 @@
+import{j as a}from"./vendor-ui-ARy-o6ek.js";import{M as e,r as n,a as o,b as m}from"./vendor-markdown-PAa2EYla.js";function i(r){return a.jsx(e,{remarkPlugins:[o,m],rehypePlugins:[n],components:r.components,children:r.markdown})}export{i as default};
