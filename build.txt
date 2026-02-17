@@ -1,0 +1,38 @@
+vite v7.3.1 building client environment for production...
+transforming...
+✓ 3609 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                      1.25 kB │ gzip:   0.69 kB
+dist/assets/index-C-oJ7G_n.css                     122.68 kB │ gzip:  18.94 kB
+dist/assets/user-DSZmci5I.js                         0.19 kB │ gzip:   0.18 kB
+dist/assets/download-BAUt7wwx.js                     0.23 kB │ gzip:   0.19 kB
+dist/assets/_commonjs-dynamic-modules-TDtrdbi3.js    0.24 kB │ gzip:   0.19 kB
+dist/assets/save-CYEsUfCP.js                         0.33 kB │ gzip:   0.23 kB
+dist/assets/wand-sparkles-Be5j1Czu.js                0.51 kB │ gzip:   0.29 kB
+dist/assets/label-LtDRfDB9.js                        0.61 kB │ gzip:   0.40 kB
+dist/assets/dashboard-metrics-DSYSy1pA.js            0.75 kB │ gzip:   0.40 kB
+dist/assets/gemini-chat-DImN_SQX.js                  3.94 kB │ gzip:   1.93 kB
+dist/assets/Leaderboard-C7AmAJQP.js                  5.50 kB │ gzip:   2.33 kB
+dist/assets/Library-CS46oXRN.js                      6.08 kB │ gzip:   2.37 kB
+dist/assets/Auth-C2XWG4Qp.js                         6.09 kB │ gzip:   2.59 kB
+dist/assets/Profile-Cy7lc7X-.js                      6.70 kB │ gzip:   2.56 kB
+dist/assets/Shop-9C3i_T12.js                         9.99 kB │ gzip:   2.61 kB
+dist/assets/confetti-D4xIRJ4C.js                    10.89 kB │ gzip:   4.36 kB
+dist/assets/scroll-area-DUaglREw.js                 12.76 kB │ gzip:   4.12 kB
+dist/assets/Settings-DvHCKnWq.js                    12.87 kB │ gzip:   4.67 kB
+dist/assets/index-c169yZ2t.js                       15.73 kB │ gzip:   6.78 kB
+dist/assets/Upload-B3iNhbQb.js                      15.95 kB │ gzip:   5.76 kB
+dist/assets/QuestionBank-BnD85KU4.js                61.48 kB │ gzip:  17.57 kB
+dist/assets/Stats-CEs_M0HJ.js                       82.93 kB │ gzip:  22.00 kB
+dist/assets/CategoricalChart-Dnty11Yk.js           290.27 kB │ gzip:  90.20 kB
+dist/assets/pdf-TYrZqVzP.js                        404.30 kB │ gzip: 119.60 kB
+dist/assets/Explain-BY8v71D7.js                    470.20 kB │ gzip: 141.67 kB
+dist/assets/index-CGU3QJ3Z.js                      499.98 kB │ gzip: 130.10 kB
+dist/assets/index-Bg5m5roc.js                      745.33 kB │ gzip: 226.21 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 9.42s

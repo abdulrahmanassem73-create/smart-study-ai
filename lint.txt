@@ -1,0 +1,196 @@
+
+/home/user/workspace/website/academic-ai-study-system/src/lib/cloud-store.ts
+   24:13  warning  Unexpected any. Specify a different type      @typescript-eslint/no-explicit-any
+   46:31  warning  Unexpected any. Specify a different type      @typescript-eslint/no-explicit-any
+   62:31  warning  Unexpected any. Specify a different type      @typescript-eslint/no-explicit-any
+   74:7   warning  'q' is never reassigned. Use 'const' instead  prefer-const
+   85:14  warning  Unexpected any. Specify a different type      @typescript-eslint/no-explicit-any
+   90:17  warning  Unexpected any. Specify a different type      @typescript-eslint/no-explicit-any
+   92:17  warning  Unexpected any. Specify a different type      @typescript-eslint/no-explicit-any
+  109:31  warning  Unexpected any. Specify a different type      @typescript-eslint/no-explicit-any
+  117:91  warning  Unexpected any. Specify a different type      @typescript-eslint/no-explicit-any
+  146:25  warning  Unexpected any. Specify a different type      @typescript-eslint/no-explicit-any
+  147:30  warning  Unexpected any. Specify a different type      @typescript-eslint/no-explicit-any
+  151:20  warning  Unexpected any. Specify a different type      @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/lib/cloud-sync.ts
+  103:15  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/lib/dashboard-metrics.ts
+  62:44  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/lib/explain-mock.ts
+  65:16  warning  Unnecessary escape character: \i  no-useless-escape
+
+/home/user/workspace/website/academic-ai-study-system/src/lib/gemini-chat.ts
+  116:17  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/lib/gemini-service.ts
+  105:17  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/lib/gemini-study-pack.ts
+  113:38  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  115:52  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  124:56  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  128:59  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/lib/library-store.ts
+   72:26  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  113:47  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  133:30  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  134:23  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/lib/profile-store.ts
+  74:32  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  75:37  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  76:36  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  77:36  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  78:28  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  79:28  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/lib/realtime.ts
+   19:13  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   63:15  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   64:62  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  104:15  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  105:62  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  116:12  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  146:15  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  147:62  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/lib/supabase.ts
+  47:51  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  49:34  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  61:15  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/lib/text-extract.ts
+   19:13  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   22:15  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   23:17  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   29:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   33:33  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   33:60  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   39:16  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   85:22  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  102:34  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  109:40  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  110:42  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  128:38  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  131:66  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  134:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  143:10  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/lib/user-settings.ts
+  59:32  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  60:30  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  61:39  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  62:28  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/lib/user-stats.ts
+   67:33  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   67:50  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   72:39  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   72:67  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   73:38  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   74:30  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   74:62  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   75:31  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  121:32  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  121:52  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  123:32  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  126:38  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  127:37  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  128:29  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  128:64  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  129:30  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  206:16  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/pages/Auth.tsx
+  55:17  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/pages/Explain.tsx
+   112:26  warning  Unexpected any. Specify a different type                                                                                                                       @typescript-eslint/no-explicit-any
+   113:22  warning  Unexpected any. Specify a different type                                                                                                                       @typescript-eslint/no-explicit-any
+   114:31  warning  Unexpected any. Specify a different type                                                                                                                       @typescript-eslint/no-explicit-any
+   115:33  warning  Unexpected any. Specify a different type                                                                                                                       @typescript-eslint/no-explicit-any
+   355:56  warning  Unexpected any. Specify a different type                                                                                                                       @typescript-eslint/no-explicit-any
+   362:34  warning  Unexpected any. Specify a different type                                                                                                                       @typescript-eslint/no-explicit-any
+   368:26  warning  Unexpected any. Specify a different type                                                                                                                       @typescript-eslint/no-explicit-any
+   391:49  warning  Unexpected any. Specify a different type                                                                                                                       @typescript-eslint/no-explicit-any
+   409:37  warning  Unexpected any. Specify a different type                                                                                                                       @typescript-eslint/no-explicit-any
+   414:28  warning  Unexpected any. Specify a different type                                                                                                                       @typescript-eslint/no-explicit-any
+   415:35  warning  Unexpected any. Specify a different type                                                                                                                       @typescript-eslint/no-explicit-any
+   448:39  warning  Unexpected any. Specify a different type                                                                                                                       @typescript-eslint/no-explicit-any
+   457:36  warning  Unexpected any. Specify a different type                                                                                                                       @typescript-eslint/no-explicit-any
+   465:36  warning  Unexpected any. Specify a different type                                                                                                                       @typescript-eslint/no-explicit-any
+   649:6   warning  React Hook React.useEffect has missing dependencies: 'effectiveFileId', 'effectiveUserId', and 'messages'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+   957:63  warning  Unexpected any. Specify a different type                                                                                                                       @typescript-eslint/no-explicit-any
+  1095:47  warning  Unexpected any. Specify a different type                                                                                                                       @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/pages/Home.tsx
+   68:25  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   69:62  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   70:78  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   73:46  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   74:43  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   74:65  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  219:33  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/pages/Leaderboard.tsx
+   55:32  warning  Unexpected any. Specify a different type                                                                                       @typescript-eslint/no-explicit-any
+   55:70  warning  Unexpected any. Specify a different type                                                                                       @typescript-eslint/no-explicit-any
+   60:43  warning  Unexpected any. Specify a different type                                                                                       @typescript-eslint/no-explicit-any
+   64:22  warning  Unexpected any. Specify a different type                                                                                       @typescript-eslint/no-explicit-any
+   64:61  warning  Unexpected any. Specify a different type                                                                                       @typescript-eslint/no-explicit-any
+   67:48  warning  Unexpected any. Specify a different type                                                                                       @typescript-eslint/no-explicit-any
+   68:40  warning  Unexpected any. Specify a different type                                                                                       @typescript-eslint/no-explicit-any
+   69:45  warning  Unexpected any. Specify a different type                                                                                       @typescript-eslint/no-explicit-any
+   70:35  warning  Unexpected any. Specify a different type                                                                                       @typescript-eslint/no-explicit-any
+   70:52  warning  Unexpected any. Specify a different type                                                                                       @typescript-eslint/no-explicit-any
+   74:41  warning  Unexpected any. Specify a different type                                                                                       @typescript-eslint/no-explicit-any
+   75:33  warning  Unexpected any. Specify a different type                                                                                       @typescript-eslint/no-explicit-any
+  119:6   warning  React Hook React.useEffect has missing dependencies: 'avatars' and 'user'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+/home/user/workspace/website/academic-ai-study-system/src/pages/Library.tsx
+   48:44  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   80:36  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  166:30  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/pages/Profile.tsx
+   89:19  warning  Unexpected any. Specify a different type                                                                                     @typescript-eslint/no-explicit-any
+   96:6   warning  React Hook React.useEffect has missing dependencies: 'cloud' and 'user'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  106:12  warning  Unexpected any. Specify a different type                                                                                     @typescript-eslint/no-explicit-any
+  109:17  warning  Unexpected any. Specify a different type                                                                                     @typescript-eslint/no-explicit-any
+  132:58  warning  Unexpected any. Specify a different type                                                                                     @typescript-eslint/no-explicit-any
+  136:17  warning  Unexpected any. Specify a different type                                                                                     @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/pages/QuestionBank.tsx
+   91:28  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  113:28  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  141:36  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  254:39  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  284:17  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/pages/Shop.tsx
+   31:25  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   32:62  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   33:78  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   36:46  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   85:17  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  134:17  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  176:17  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/pages/Stats.tsx
+  133:36  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  168:38  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/user/workspace/website/academic-ai-study-system/src/pages/Upload.tsx
+  240:57  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  328:65  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  338:54  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  349:33  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  452:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+✖ 144 problems (0 errors, 144 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+
