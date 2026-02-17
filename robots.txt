@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# ساعد محركات البحث في الفهرسة
+Sitemap: https://YOUR_DOMAIN_HERE/sitemap.xml
